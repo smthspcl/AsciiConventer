@@ -20,7 +20,7 @@ public class Converter {
     };
 
     public void convert(String inputPath) throws IOException {
-        System.out.println("Пытаемся загрузить: " + inputPath);
+        System.out.println("Загрузка: " + inputPath);
 
         File inputFile = new File(inputPath);
 
